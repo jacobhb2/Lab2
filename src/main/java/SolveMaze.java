@@ -39,7 +39,7 @@ public class SolveMaze {
                 while (!maze.canMove()) {
                     maze.turnRight();
                 }
-                maze.move();
+                maze.move(); //
             }
 
         }
